@@ -1,0 +1,121 @@
+.about-container {
+  background-color: #fff0d4;
+  font-family: 'Hind', sans-serif;
+  height: 100%;
+}
+
+.about-header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.about-header {
+  font-weight: 500;
+  color: #343434;
+}
+
+.about-links-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6rem;
+  width: 9vw;
+}
+
+.about-link {
+  color: #343434;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+}
+
+.link-1:hover,
+.link-2:hover {
+  background-color: #343434;
+  color: #fff0d4;
+  transform: translateY(-3px);
+}
+
+.logo {
+  padding-left: 3.75rem;
+  transition: 0.4s ease-in-out;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.profile-pic {
+  border-radius: 95px;
+  max-height: 195px;
+  max-width: 195px;
+  margin-top: 7rem;
+  margin-left: 6rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  padding: 0 8.5rem;
+}
+
+.about-content {
+  line-height: 160%;
+  max-width: 35rem;
+  text-indent: 1rem;
+}
+
+.about-footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3.5rem 10.5rem;
+}
+
+.resume-icon,
+.github-icon,
+.linkedin-icon,
+.email-icon {
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.resume-icon:hover {
+  transform: translateY(-4px);
+}
+
+.github-icon:hover {
+  fill: #de9000;
+  transform: translateY(-4px);
+}
+
+.linkedin-icon:hover {
+  fill: #de9000;
+  transform: translateY(-4px);
+}
+
+.email-icon:hover {
+  transform: translateY(-4px);
+}
+
+.about-quote {
+  display: block;
+}
+
+.quote-author {
+  font-style: normal;
+}
+
+.footer-link {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.footer-link-text {
+  color: #343434;
+  margin: 0;
+  padding-top: 0.75rem;
+}
