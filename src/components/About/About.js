@@ -34,30 +34,32 @@ class About extends Component {
             </NavLink>
           </div>
         </header>
-        <main className="main-container">
+        <main className="main-about-container">
           <img className="profile-pic" src={profilePic} alt="profile" />
           <div>
             <h1 className="about-header">About Me</h1>
             <p className="about-content">
-              I am a software developer with a strong desire for overcoming the
-              challenging obstacles that often come up in the world of
-              development. My background in life sciences and sales has given me
-              both the critical thinking skills needed to effectively solve
-              problems as well as the communication skills to efficiently work
-              cross-functionally with team members towards accomplishing a
-              common goal.
+              I am a software developer with a strong desire for overcoming
+              challenging obstacles, much like the ones that often come up
+              within the world of software development. My background in life
+              sciences and sales has given me both the critical thinking skills
+              needed to effectively solve problems as well as the communication
+              skills to efficiently work cross-functionally with team members
+              towards accomplishing a common goal.
             </p>
             <p className="about-content">
               In software development, you must be willing to continuously learn
-              to stay relevant. I believe that my willingness and sheer passion
-              to learn on a daily basis has helped me immensely in beginning my
-              journey towards becoming a successful developer and I welcome
-              learning about new practices and technologies in order to ensure I
-              continue to grow.
+              to stay relevant. The inevitable truth that there will always more
+              to learn has drawn me to development and I believe that my
+              willingness and passion to learn on a daily basis has helped me
+              immensely in beginning my journey towards becoming a successful
+              developer. I welcome learning about new practices and technologies
+              and look forward to the next challenge that comes my way.
             </p>
             <p className="about-content">
               Please feel free to connect with me using any of the links below.
-              I seek value in every new conversation I have:
+              I seek value in every new connection I make and every conversation
+              I have:
             </p>
             <p className="about-content">
               <em className="about-quote">
