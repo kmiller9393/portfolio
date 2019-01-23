@@ -5,7 +5,7 @@ import github from '../../images/github-logo.svg';
 import orbital from '../../images/orbital.svg';
 import murrayTracker from '../../images/murray-tracker-home.svg';
 import swapibox from '../../images/swapibox-home.svg';
-import weathrly from '../../images/weathrly-home.svg';
+import weathrly from '../../images/weathrly.svg';
 import './Projects.css';
 
 class Projects extends Component {
@@ -107,12 +107,8 @@ class Projects extends Component {
             )}
           </section>
           <section className="project-container">
-            <h2 className="project-header">MurrayTracker</h2>
-            <img
-              className="project-image"
-              src={murrayTracker}
-              alt="movie tracker"
-            />
+            <h2 className="project-header">SWAPI-Box</h2>
+            <img className="project-image" src={swapibox} alt="star wars api" />
             <div className="button-launch-container">
               <button
                 className="details-button"
@@ -130,7 +126,7 @@ class Projects extends Component {
                 Launch App
               </a>
               <a
-                href="https://github.com/kmiller9393/movie-tracker"
+                href="https://github.com/kmiller9393/swapibox"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -141,53 +137,7 @@ class Projects extends Component {
               <article className="description-container">
                 <h3 className="description-header">Description</h3>
                 <p className="project-description">
-                  MurrayTracker is an application that uses The Movie Database
-                  API to give the user access to a variety of Bill Murray movies
-                  as well as the ability to login and add specific titles of
-                  their choice to their favorites. If a user clicks on a
-                  particular movie card, they can view a synposis of that movie,
-                  its release date and its IMDb rating.
-                </p>
-                <h3 className="description-header">Tech Stack</h3>
-                <p className="tech-stack-text">
-                  React.js, Redux, React Router, Node.js, PostgreSQL, Jest,
-                  Enyzme
-                </p>
-              </article>
-            )}
-          </section>
-          <section className="project-container">
-            <h2 className="project-header">SWAPI-Box</h2>
-            <img className="project-image" src={swapibox} alt="star wars api" />
-            <div className="button-launch-container">
-              <button
-                className="details-button"
-                onClick={e => this.toggleDetailView(e)}
-                name="thirdView"
-              >
-                {!thirdView ? 'More Details' : 'Hide Details'}
-              </button>
-              <a
-                className="launch-link"
-                href="https://star-wars-api-km.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Launch App
-              </a>
-              <a
-                href="https://github.com/kmiller9393/swapibox"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="github-logo" src={github} alt="github" />
-              </a>
-            </div>
-            {thirdView && (
-              <article className="description-container">
-                <h3 className="description-header">Description</h3>
-                <p className="project-description">
-                  SWAPIBox is a web application that utilizes the SWAPI (Star
+                  SWAPI-Box is a web application that utilizes the SWAPI (Star
                   Wars API) to display information about various people, planets
                   and vehicles found in a galaxy far, far away. Users can view
                   and add these people, planets and vehicles to their favorites
@@ -210,13 +160,13 @@ class Projects extends Component {
               <button
                 className="details-button"
                 onClick={e => this.toggleDetailView(e)}
-                name="fourthView"
+                name="thirdView"
               >
-                {!fourthView ? 'More Details' : 'Hide Details'}
+                {!thirdView ? 'More Details' : 'Hide Details'}
               </button>
               <a
                 className="launch-link"
-                href="https://star-wars-api-km.herokuapp.com/"
+                href="https://km-weathrly.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -230,7 +180,7 @@ class Projects extends Component {
                 <img className="github-logo" src={github} alt="github" />
               </a>
             </div>
-            {fourthView && (
+            {thirdView && (
               <article className="description-container">
                 <h3 className="description-header">Description</h3>
                 <p className="project-description">
@@ -243,7 +193,51 @@ class Projects extends Component {
                   user's search for cities around the nation.
                 </p>
                 <h3 className="description-header">Tech Stack</h3>
-                <p className="tech-stack-text">React.js, Jest and Enzyme</p>
+                <p className="tech-stack-text">
+                  React.js, React Router, Jest, Enzyme
+                </p>
+              </article>
+            )}
+          </section>
+          <section className="project-container">
+            <h2 className="project-header">MurrayTracker</h2>
+            <img
+              className="project-image"
+              src={murrayTracker}
+              alt="movie tracker"
+            />
+            <div className="button-launch-container">
+              <button
+                className="details-button"
+                onClick={e => this.toggleDetailView(e)}
+                name="fourthView"
+              >
+                {!fourthView ? 'More Details' : 'Hide Details'}
+              </button>
+              <a
+                href="https://github.com/kmiller9393/movie-tracker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="github-logo" src={github} alt="github" />
+              </a>
+            </div>
+            {fourthView && (
+              <article className="description-container">
+                <h3 className="description-header">Description</h3>
+                <p className="project-description">
+                  MurrayTracker is an application that uses The Movie Database
+                  API to give the user access to a variety of Bill Murray movies
+                  as well as the ability to login and add specific titles of
+                  their choice to their favorites. If a user clicks on a
+                  particular movie card, they can view a synposis of that movie,
+                  its release date and its IMDb rating.
+                </p>
+                <h3 className="description-header">Tech Stack</h3>
+                <p className="tech-stack-text">
+                  React.js, Redux, React Router, Express, PostgreSQL, Jest,
+                  Enyzme
+                </p>
               </article>
             )}
           </section>
