@@ -1,5 +1,5 @@
 .projects-container {
-  background-color: #fff0d4;
+  background-color: rgba(7, 73, 142, 0.2);
   font-family: 'Hind', sans-serif;
   height: 100%;
 }
@@ -28,7 +28,7 @@
 .link-1:hover,
 .link-2:hover {
   background-color: #343434;
-  color: #fff0d4;
+  color: #cedae8;
   transform: translateY(-3px);
 }
 
@@ -102,13 +102,13 @@
 
 .launch-link:hover {
   background-color: #343434;
-  color: #fff0d4;
+  color: #cedae8;
   transform: translateY(-3px);
 }
 
 .details-button {
   align-self: center;
-  background-color: #fff0d4;
+  background-color: #cedae8;
   border: 1.4px #343434 solid;
   font-size: 1.1rem;
   height: 55px;
@@ -119,17 +119,13 @@
 
 .details-button:hover {
   background-color: #343434;
-  color: #fff0d4;
+  color: #cedae8;
   transform: translateY(-3px);
-}
-
-.details-button:hover .arrow-icon {
-  fill: #fff0d4;
 }
 
 .active-button {
   background-color: #343434;
-  color: #fff0d4;
+  color: #cedae8;
 }
 
 .github-logo {

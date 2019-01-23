@@ -1,5 +1,5 @@
 .about-container {
-  background-color: #fff0d4;
+  background-color: rgba(7, 73, 142, 0.2);
   font-family: 'Hind', sans-serif;
   height: 100%;
 }
@@ -34,7 +34,7 @@
 .link-1:hover,
 .link-2:hover {
   background-color: #343434;
-  color: #fff0d4;
+  color: #cedae8;
   transform: translateY(-3px);
 }
 

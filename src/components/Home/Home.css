@@ -1,6 +1,6 @@
 .home-container {
   align-items: center;
-  background-color: #de9000;
+  background-color: #07498e;
   color: #f7f7f7;
   display: flex;
   flex-direction: column;
@@ -42,6 +42,6 @@
 
 .homepage-link:hover {
   background-color: #f7f7f7;
-  border-bottom: 2.5px #de9000 solid;
-  color: #de9000;
+  border-bottom: 2.5px #07498e solid;
+  color: #07498e;
 }
