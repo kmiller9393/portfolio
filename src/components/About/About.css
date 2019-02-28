@@ -49,10 +49,9 @@
 }
 
 .profile-pic {
-  border-radius: 95px;
-  max-height: 195px;
-  max-width: 195px;
-  margin-top: 7rem;
+  max-height: 450px;
+  max-width: 450px;
+  margin-top: 3.5rem;
   margin-left: 6rem;
 }
 

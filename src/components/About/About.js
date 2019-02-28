@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
-import profilePic from '../../images/ProfilePicture.jpg';
+import profilePic from '../../images/prof-pic.png';
 import logo from '../../images/KM.svg';
 import github from '../../images/github-logo.svg';
 import linkedin from '../../images/linkedin-logo.svg';
