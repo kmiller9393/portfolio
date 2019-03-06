@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio/static/css/main.610f74c8.chunk.css",
-  "main.js": "/portfolio/static/js/main.28e90e2a.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.28e90e2a.chunk.js.map",
-  "static/js/1.c9979ed4.chunk.js": "/portfolio/static/js/1.c9979ed4.chunk.js",
-  "static/js/1.c9979ed4.chunk.js.map": "/portfolio/static/js/1.c9979ed4.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.0c7bf66a.chunk.css",
+  "main.js": "/portfolio/static/js/main.4668b691.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.4668b691.chunk.js.map",
+  "static/js/1.6a2eba22.chunk.js": "/portfolio/static/js/1.6a2eba22.chunk.js",
+  "static/js/1.6a2eba22.chunk.js.map": "/portfolio/static/js/1.6a2eba22.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/github-logo.svg": "/portfolio/static/media/github-logo.f7a035b9.svg",
@@ -16,8 +16,9 @@
   "static/media/murray-tracker-home.svg": "/portfolio/static/media/murray-tracker-home.d7deb045.svg",
   "static/media/swapibox-home.svg": "/portfolio/static/media/swapibox-home.dce2742c.svg",
   "static/media/weathrly.svg": "/portfolio/static/media/weathrly.ecb40d61.svg",
-  "static/css/main.610f74c8.chunk.css.map": "/portfolio/static/css/main.610f74c8.chunk.css.map",
+  "static/media/placeholder.png": "/portfolio/static/media/placeholder.9f928b2b.png",
+  "static/css/main.0c7bf66a.chunk.css.map": "/portfolio/static/css/main.0c7bf66a.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.0f75a77a17e1e6342033cea95e45d1f1.js": "/portfolio/precache-manifest.0f75a77a17e1e6342033cea95e45d1f1.js",
+  "precache-manifest.1604e06b4f72bf014aaacd37a4da0411.js": "/portfolio/precache-manifest.1604e06b4f72bf014aaacd37a4da0411.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
