@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
+import placeholder from '../../images/placeholder.png';
+import Img from 'react-image';
 import logo from '../../images/KM.svg';
 import github from '../../images/github-logo.svg';
 import orbital from '../../images/orbital.svg';
@@ -37,7 +39,13 @@ class Projects extends Component {
   };
 
   render() {
-    const { firstView, secondView, thirdView, fourthView } = this.state;
+    const {
+      firstView,
+      secondView,
+      thirdView,
+      fourthView,
+      firstImage
+    } = this.state;
 
     return (
       <div className="projects-container">
@@ -61,7 +69,19 @@ class Projects extends Component {
           <h1 className="projects-main-header">Projects</h1>
           <section className="project-container">
             <h2 className="project-header">Orbital</h2>
-            <img className="project-image" src={orbital} alt="orbital" />
+            <Img
+              className="project-image"
+              src={orbital}
+              alt="orbital"
+              loader={
+                <img
+                  className="project-image"
+                  src={placeholder}
+                  alt="placeholder"
+                />
+              }
+              name="firstImage"
+            />
             <div className="button-launch-container">
               <button
                 className="details-button"
@@ -83,7 +103,7 @@ class Projects extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="github-logo" src={github} alt="github" />
+                <img className="github-logo" src={github} alt="github" onLoad />
               </a>
             </div>
             {firstView && (
@@ -108,7 +128,19 @@ class Projects extends Component {
           </section>
           <section className="project-container">
             <h2 className="project-header">SWAPI-Box</h2>
-            <img className="project-image" src={swapibox} alt="star wars api" />
+            <Img
+              className="project-image"
+              src={swapibox}
+              alt="star wars api"
+              loader={
+                <img
+                  className="project-image"
+                  src={placeholder}
+                  alt="placeholder"
+                />
+              }
+              name="secondImage"
+            />
             <div className="button-launch-container">
               <button
                 className="details-button"
@@ -155,7 +187,19 @@ class Projects extends Component {
           </section>
           <section className="project-container">
             <h2 className="project-header">Weathrly</h2>
-            <img className="project-image" src={weathrly} alt="weatherly" />
+            <Img
+              className="project-image"
+              src={weathrly}
+              alt="weatherly"
+              loader={
+                <img
+                  className="project-image"
+                  src={placeholder}
+                  alt="placeholder"
+                />
+              }
+              name="thirdImage"
+            />
             <div className="button-launch-container">
               <button
                 className="details-button"
@@ -201,10 +245,18 @@ class Projects extends Component {
           </section>
           <section className="project-container">
             <h2 className="project-header">MurrayTracker</h2>
-            <img
+            <Img
               className="project-image"
               src={murrayTracker}
               alt="movie tracker"
+              loader={
+                <img
+                  className="project-image"
+                  src={placeholder}
+                  alt="placeholder"
+                />
+              }
+              name="fourthImage"
             />
             <div className="button-launch-container">
               <button
