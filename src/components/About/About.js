@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
+import LoadingBars from '../LoadingBars/LoadingBars';
 import profilePic from '../../images/prof-pic.png';
 import logo from '../../images/KM.svg';
 import github from '../../images/github-logo.svg';
@@ -9,15 +10,32 @@ import email from '../../images/email.svg';
 import './About.css';
 
 class About extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      loading: true
+    };
+  }
+
   routeHome = () => {
     const { history } = this.props;
 
     history.push('/');
   };
 
+  handleLoad = () => {
+    this.setState({
+      loading: false
+    });
+  };
+
   render() {
+    const { loading } = this.state;
+
     return (
       <div className="about-container">
+        {loading && <LoadingBars />}
         <header className="about-header-container">
           <img
             className="logo"
@@ -35,7 +53,12 @@ class About extends Component {
           </div>
         </header>
         <main className="main-about-container">
-          <img className="profile-pic" src={profilePic} alt="profile" />
+          <img
+            className="profile-pic"
+            src={profilePic}
+            alt="profile"
+            onLoad={this.handleLoad}
+          />
           <div>
             <h1 className="about-header">About Me</h1>
             <p className="about-content">
