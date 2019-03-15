@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
-import placeholder from '../../images/placeholder.png';
-import Img from 'react-image';
+import LoadingBars from '../LoadingBars/LoadingBars';
 import logo from '../../images/KM.svg';
 import github from '../../images/github-logo.svg';
 import orbital from '../../images/orbital.svg';
@@ -17,7 +16,8 @@ class Projects extends Component {
       firstView: false,
       secondView: false,
       thirdView: false,
-      fourthView: false
+      fourthView: false,
+      loading: true
     };
   }
 
@@ -38,17 +38,24 @@ class Projects extends Component {
     }));
   };
 
+  handleLoad = () => {
+    this.setState({
+      loading: false
+    });
+  };
+
   render() {
     const {
       firstView,
       secondView,
       thirdView,
       fourthView,
-      firstImage
+      loading
     } = this.state;
 
     return (
       <div className="projects-container">
+        {loading && <LoadingBars />}
         <header className="projects-header-container">
           <img
             className="logo"
@@ -69,18 +76,12 @@ class Projects extends Component {
           <h1 className="projects-main-header">Projects</h1>
           <section className="project-container">
             <h2 className="project-header">Orbital</h2>
-            <Img
+            <img
               className="project-image"
               src={orbital}
               alt="orbital"
-              loader={
-                <img
-                  className="project-image"
-                  src={placeholder}
-                  alt="placeholder"
-                />
-              }
               name="firstImage"
+              onLoad={this.handleLoad}
             />
             <div className="button-launch-container">
               <button
@@ -128,17 +129,10 @@ class Projects extends Component {
           </section>
           <section className="project-container">
             <h2 className="project-header">SWAPI-Box</h2>
-            <Img
+            <img
               className="project-image"
               src={swapibox}
               alt="star wars api"
-              loader={
-                <img
-                  className="project-image"
-                  src={placeholder}
-                  alt="placeholder"
-                />
-              }
               name="secondImage"
             />
             <div className="button-launch-container">
@@ -187,17 +181,10 @@ class Projects extends Component {
           </section>
           <section className="project-container">
             <h2 className="project-header">Weathrly</h2>
-            <Img
+            <img
               className="project-image"
               src={weathrly}
               alt="weatherly"
-              loader={
-                <img
-                  className="project-image"
-                  src={placeholder}
-                  alt="placeholder"
-                />
-              }
               name="thirdImage"
             />
             <div className="button-launch-container">
@@ -208,14 +195,6 @@ class Projects extends Component {
               >
                 {!thirdView ? 'More Details' : 'Hide Details'}
               </button>
-              <a
-                className="launch-link"
-                href="https://km-weathrly.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Launch App
-              </a>
               <a
                 href="https://github.com/kmiller9393/weathrly"
                 target="_blank"
@@ -245,17 +224,10 @@ class Projects extends Component {
           </section>
           <section className="project-container">
             <h2 className="project-header">MurrayTracker</h2>
-            <Img
+            <img
               className="project-image"
               src={murrayTracker}
               alt="movie tracker"
-              loader={
-                <img
-                  className="project-image"
-                  src={placeholder}
-                  alt="placeholder"
-                />
-              }
               name="fourthImage"
             />
             <div className="button-launch-container">
