@@ -6,29 +6,25 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  text-align: center;
-}
+  text-align: center; }
 
 .home-header {
   border-top: #f7f7f7 1px solid;
   font-family: 'Raleway', sans-serif;
   font-size: 5rem;
   font-weight: 300;
-  margin: 0;
-}
+  margin: 0; }
 
 .home-position-tag {
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-weight: 200;
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 .link-list {
   border-bottom: #f7f7f7 1px solid;
   padding-bottom: 0.75rem;
-  width: 514.56px;
-}
+  width: 514.56px; }
 
 .homepage-link {
   color: #f7f7f7;
@@ -37,11 +33,9 @@
   font-weight: 300;
   padding: 0.75rem;
   text-decoration: none;
-  transition: 0.4s ease-in-out;
-}
+  transition: 0.4s ease-in-out; }
 
 .homepage-link:hover {
   background-color: #f7f7f7;
   border-bottom: 2.5px #07498e solid;
-  color: #07498e;
-}
+  color: #07498e; }

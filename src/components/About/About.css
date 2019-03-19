@@ -1,122 +1,100 @@
 .about-container {
-  background-color: rgba(7, 73, 142, 0.2);
+  background-color: rgba(169, 175, 181, 0.2);
   font-family: 'Hind', sans-serif;
-  height: 100%;
-}
+  height: 100%; }
 
 .about-header-container {
+  align-items: center;
+  background-color: #07498e;
+  box-shadow: 0px 7px 4px -4px #303030;
   display: flex;
-  justify-content: space-between;
-  padding-top: 2rem;
-}
+  justify-content: space-between; }
 
 .about-header {
   color: #343434;
   font-size: 2.75rem;
   font-weight: 500;
-  margin-top: 0;
-}
+  margin-top: 1rem; }
 
 .about-links-container {
   display: flex;
   justify-content: space-between;
   margin-right: 6rem;
-  width: 9vw;
-}
+  width: 9vw; }
 
 .about-link {
-  color: #343434;
+  color: #f7f7f7;
   padding: 0.75rem 1.25rem;
   text-decoration: none;
-  transition: 0.4s ease-in-out;
-}
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.4s ease-in-out; }
 
 .link-1:hover,
 .link-2:hover {
-  background-color: #343434;
-  color: #cedae8;
-  transform: translateY(-3px);
-}
+  transform: translateY(-3px); }
 
 .logo {
-  padding-left: 3.75rem;
-  transition: 0.4s ease-in-out;
-}
+  padding-left: 3rem;
+  transition: 0.4s ease-in-out; }
 
 .logo:hover {
   cursor: pointer;
-  transform: translateY(-3px);
-}
+  transform: translateY(-3px); }
 
 .profile-pic {
   max-height: 450px;
   max-width: 450px;
   margin-top: 3.5rem;
-  margin-left: 6rem;
-}
+  margin-left: 6rem; }
 
 .main-about-container {
   display: flex;
   justify-content: space-around;
-  padding: 0 8.5rem;
-}
+  padding: 0 8.5rem; }
 
 .about-content {
   line-height: 160%;
   max-width: 35rem;
-  text-indent: 1rem;
-}
+  text-indent: 1rem; }
 
 .about-footer {
   display: flex;
   justify-content: space-evenly;
-  padding: 2.5rem 10.5rem;
-}
+  padding: 2.5rem 10.5rem; }
 
 .resume-icon,
 .github-icon,
 .linkedin-icon,
 .email-icon {
   cursor: pointer;
-  transition: 0.4s ease-out;
-}
+  transition: 0.4s ease-out; }
 
 .resume-icon:hover {
-  transform: translateY(-4px);
-}
+  transform: translateY(-4px); }
 
 .github-icon:hover {
-  fill: #de9000;
-  transform: translateY(-4px);
-}
+  transform: translateY(-4px); }
 
 .linkedin-icon:hover {
-  fill: #de9000;
-  transform: translateY(-4px);
-}
+  transform: translateY(-4px); }
 
 .email-icon:hover {
-  transform: translateY(-4px);
-}
+  transform: translateY(-4px); }
 
 .about-quote {
-  display: block;
-}
+  display: block; }
 
 .quote-author {
   font-style: normal;
-  padding-left: 0.2rem;
-}
+  padding-left: 0.2rem; }
 
 .footer-link {
   align-items: center;
   display: flex;
   flex-direction: column;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .footer-link-text {
   color: #343434;
   margin: 0;
-  padding-top: 0.75rem;
-}
+  padding-top: 0.75rem; }
