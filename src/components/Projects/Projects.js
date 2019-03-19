@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
 import LoadingBars from '../LoadingBars/LoadingBars';
-import logo from '../../images/KM.svg';
+import logo from '../../images/KM-logo.svg';
 import github from '../../images/github-logo.svg';
 import orbital from '../../images/orbital.svg';
 import murrayTracker from '../../images/murray-tracker-home.svg';
@@ -104,7 +104,7 @@ class Projects extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="github-logo" src={github} alt="github" onLoad />
+                <img className="github-logo" src={github} alt="github" />
               </a>
             </div>
             {firstView && (
