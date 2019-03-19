@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
 import LoadingBars from '../LoadingBars/LoadingBars';
 import profilePic from '../../images/prof-pic.png';
-import logo from '../../images/KM.svg';
+import logo from '../../images/KM-logo.svg';
 import github from '../../images/github-logo.svg';
 import linkedin from '../../images/linkedin-logo.svg';
 import resume from '../../images/text-document.svg';
@@ -12,7 +12,6 @@ import './About.css';
 class About extends Component {
   constructor() {
     super();
-
     this.state = {
       loading: true
     };
