@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kmiller9393.github.io",
+  "homepage": "https://kurt-miller.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass-chokidar": "^1.3.4",
