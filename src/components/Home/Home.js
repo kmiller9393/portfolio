@@ -10,10 +10,10 @@ const Home = () => {
       <div className="link-list">
         <NavLink className="homepage-link" to="/about">
           About
-          </NavLink>
+        </NavLink>
         <NavLink className="homepage-link" to="/projects">
           Projects
-          </NavLink>
+        </NavLink>
       </div>
     </div>
   );
