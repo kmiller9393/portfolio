@@ -39,3 +39,21 @@
   background-color: #f7f7f7;
   border-bottom: 2.5px #07498e solid;
   color: #07498e; }
+
+@media screen and (max-width: 590px) {
+  .home-header {
+    font-size: 3.5rem; }
+  .home-position-tag {
+    font-size: 1.65rem; }
+  .homepage-link {
+    font-size: 1.2rem; }
+  .link-list {
+    width: 360.2px; } }
+
+@media screen and (max-width: 390px) {
+  .home-header {
+    font-size: 2.75rem; }
+  .home-position-tag {
+    font-size: 1.3rem; }
+  .link-list {
+    width: 283.02px; } }
