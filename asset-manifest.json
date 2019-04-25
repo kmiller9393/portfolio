@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.008fce0b.chunk.css",
-  "main.js": "/static/js/main.54f6c94d.chunk.js",
-  "main.js.map": "/static/js/main.54f6c94d.chunk.js.map",
+  "main.css": "/static/css/main.76296338.chunk.css",
+  "main.js": "/static/js/main.c5870aac.chunk.js",
+  "main.js.map": "/static/js/main.c5870aac.chunk.js.map",
   "static/css/1.629223ba.chunk.css": "/static/css/1.629223ba.chunk.css",
   "static/js/1.074aa1a7.chunk.js": "/static/js/1.074aa1a7.chunk.js",
   "static/js/1.074aa1a7.chunk.js.map": "/static/js/1.074aa1a7.chunk.js.map",
@@ -17,9 +17,9 @@
   "static/media/swapibox-home.svg": "/static/media/swapibox-home.dce2742c.svg",
   "static/media/weathrly.svg": "/static/media/weathrly.ecb40d61.svg",
   "static/media/KM-logo.svg": "/static/media/KM-logo.1148b2c8.svg",
-  "static/css/main.008fce0b.chunk.css.map": "/static/css/main.008fce0b.chunk.css.map",
+  "static/css/main.76296338.chunk.css.map": "/static/css/main.76296338.chunk.css.map",
   "static/css/1.629223ba.chunk.css.map": "/static/css/1.629223ba.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.96eb082abc30d8c06bae615c2492ca39.js": "/precache-manifest.96eb082abc30d8c06bae615c2492ca39.js",
+  "precache-manifest.364e0327d889e486bc42689fce058288.js": "/precache-manifest.364e0327d889e486bc42689fce058288.js",
   "service-worker.js": "/service-worker.js"
 }
