@@ -6,7 +6,7 @@ import github from '../../images/github-logo.svg';
 import orbital from '../../images/orbital.svg';
 import murrayTracker from '../../images/murray-tracker-home.svg';
 import swapibox from '../../images/swapibox-home.svg';
-import weathrly from '../../images/weathrly.svg';
+import blog from '../../images/kt-blog-landing.svg';
 import './Projects.css';
 
 class Projects extends Component {
@@ -75,13 +75,12 @@ class Projects extends Component {
         <main className="main-projects-container">
           <h1 className="projects-main-header">Projects</h1>
           <section className="project-container">
-            <h2 className="project-header">Orbital</h2>
+            <h2 className="project-header">kt-blog</h2>
             <img
               className="project-image"
-              src={orbital}
-              alt="orbital"
+              src={blog}
+              alt="kt-blog"
               name="firstImage"
-              onLoad={this.handleLoad}
             />
             <div className="button-launch-container">
               <button
@@ -90,6 +89,57 @@ class Projects extends Component {
                 name="firstView"
               >
                 {!firstView ? 'More Details' : 'Hide Details'}
+              </button>
+              <a
+                className="launch-link"
+                href="https://pedantic-goldstine-406ed0.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Launch App
+              </a>
+              <a
+                href="https://github.com/kmiller9393/kt-blog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="github-logo" src={github} alt="github" />
+              </a>
+            </div>
+            {firstView && (
+              <article className="description-container">
+                <h3 className="description-header">Description</h3>
+                <p className="project-description">
+                  kt-blog is a web application that utilizes data fetched from a
+                  GraphQL endpoint to display blog posts filtered by category
+                  (travel, food and lifestyle). This application also allows
+                  visitors to email the blog owner directly with feedback or a
+                  message as well as subscribe to receive notifications about
+                  new posts.
+                </p>
+                <h3 className="description-header">Tech Stack</h3>
+                <p className="tech-stack-text">
+                  React.js, React Static, GraphQL, GraphCMS and Express.js
+                </p>
+              </article>
+            )}
+          </section>
+          <section className="project-container">
+            <h2 className="project-header">Orbital</h2>
+            <img
+              className="project-image"
+              src={orbital}
+              alt="orbital"
+              name="secondImage"
+              onLoad={this.handleLoad}
+            />
+            <div className="button-launch-container">
+              <button
+                className="details-button"
+                onClick={e => this.toggleDetailView(e)}
+                name="firstView"
+              >
+                {!secondView ? 'More Details' : 'Hide Details'}
               </button>
               <a
                 className="launch-link"
@@ -107,7 +157,7 @@ class Projects extends Component {
                 <img className="github-logo" src={github} alt="github" />
               </a>
             </div>
-            {firstView && (
+            {secondView && (
               <article className="description-container">
                 <h3 className="description-header">Description</h3>
                 <p className="project-description">
@@ -141,7 +191,7 @@ class Projects extends Component {
                 onClick={e => this.toggleDetailView(e)}
                 name="secondView"
               >
-                {!secondView ? 'More Details' : 'Hide Details'}
+                {!thirdView ? 'More Details' : 'Hide Details'}
               </button>
               <a
                 className="launch-link"
@@ -159,7 +209,7 @@ class Projects extends Component {
                 <img className="github-logo" src={github} alt="github" />
               </a>
             </div>
-            {secondView && (
+            {thirdView && (
               <article className="description-container">
                 <h3 className="description-header">Description</h3>
                 <p className="project-description">
@@ -171,49 +221,6 @@ class Projects extends Component {
                   and ES6 to efficiently fetch and display Star Wars data found
                   within nested fetch calls for a beautifully interactive User
                   Experience.
-                </p>
-                <h3 className="description-header">Tech Stack</h3>
-                <p className="tech-stack-text">
-                  React.js, React Router, Jest, Enzyme
-                </p>
-              </article>
-            )}
-          </section>
-          <section className="project-container">
-            <h2 className="project-header">Weathrly</h2>
-            <img
-              className="project-image"
-              src={weathrly}
-              alt="weatherly"
-              name="thirdImage"
-            />
-            <div className="button-launch-container">
-              <button
-                className="details-button"
-                onClick={e => this.toggleDetailView(e)}
-                name="thirdView"
-              >
-                {!thirdView ? 'More Details' : 'Hide Details'}
-              </button>
-              <a
-                href="https://github.com/kmiller9393/weathrly"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="github-logo" src={github} alt="github" />
-              </a>
-            </div>
-            {thirdView && (
-              <article className="description-container">
-                <h3 className="description-header">Description</h3>
-                <p className="project-description">
-                  Weathrly is a dynamic and real-time weather application that
-                  uses weather data fetched from the Weather Underground API.
-                  Users can search for a city of their choosing and submit a
-                  search to view the current, hourly and ten day weather
-                  forecast for that particular city. Weathrly also implements a
-                  custom binary search trie and functionality to autocomplete a
-                  user's search for cities around the nation.
                 </p>
                 <h3 className="description-header">Tech Stack</h3>
                 <p className="tech-stack-text">
