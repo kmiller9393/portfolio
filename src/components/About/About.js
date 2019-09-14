@@ -94,7 +94,7 @@ class About extends Component {
         <footer className="about-footer">
           <a
             className="footer-link"
-            href="https://alumni.turing.io/sites/default/files/resumes/KurtMillerResume-final_0.pdf"
+            href="https://drive.google.com/file/d/1-Z6v4vB2mI2GYOMaydyFJrciCbEcoMKP/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
