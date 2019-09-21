@@ -81,6 +81,7 @@ class Projects extends Component {
               src={blog}
               alt="kt-blog"
               name="firstImage"
+              onLoad={this.handleLoad}
             />
             <div className="button-launch-container">
               <button
@@ -131,13 +132,12 @@ class Projects extends Component {
               src={orbital}
               alt="orbital"
               name="secondImage"
-              onLoad={this.handleLoad}
             />
             <div className="button-launch-container">
               <button
                 className="details-button"
                 onClick={e => this.toggleDetailView(e)}
-                name="firstView"
+                name="secondView"
               >
                 {!secondView ? 'More Details' : 'Hide Details'}
               </button>
@@ -189,7 +189,7 @@ class Projects extends Component {
               <button
                 className="details-button"
                 onClick={e => this.toggleDetailView(e)}
-                name="secondView"
+                name="thirdView"
               >
                 {!thirdView ? 'More Details' : 'Hide Details'}
               </button>
