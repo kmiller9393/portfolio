@@ -93,7 +93,7 @@ class Projects extends Component {
               </button>
               <a
                 className="launch-link"
-                href="https://pedantic-goldstine-406ed0.netlify.com/"
+                href="https://clever-archimedes-b7d2ca.netlify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
