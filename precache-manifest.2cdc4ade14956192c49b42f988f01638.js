@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/linkedin-logo.b6f1a2d9.svg"
   },
   {
-    "revision": "8c610bc70d9160db2481",
+    "revision": "accf1f33bef5a1f64bac",
     "url": "/static/css/main.76296338.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/prof-pic.00300dda.png"
   },
   {
-    "revision": "8c610bc70d9160db2481",
-    "url": "/static/js/main.8c610bc7.chunk.js"
+    "revision": "accf1f33bef5a1f64bac",
+    "url": "/static/js/main.accf1f33.chunk.js"
   },
   {
     "revision": "f5213e05d69ae974479a9ec4053ce888",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.629223ba.chunk.css"
   },
   {
-    "revision": "116832794641314740e789ee3ab98d26",
+    "revision": "bdcd6ff49407d4a9cc1272dd35a1a6c5",
     "url": "/index.html"
   }
 ];
