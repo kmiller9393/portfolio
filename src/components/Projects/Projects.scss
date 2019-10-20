@@ -1,174 +1,250 @@
 .projects-container {
-    background-color: rgba(169, 175, 181, 0.2);
-    font-family: 'Hind', sans-serif;
-    height: 100%;
-  }
-  
-  .projects-header-container {
-    align-items: center;
-    background-color: #07498e;
-    box-shadow: 0px 7px 4px -4px rgb(48, 48, 48);
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    width: 100vw;
-  }
-  
-  .projects-link-container {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 6rem;
-    width: 9vw;
-  }
-  
-  .projects-link {
-    color: #f7f7f7;
-    padding: 0.75rem 1.25rem;
-    text-decoration: none;
-    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-    transition: 0.4s ease-in-out;
-  }
-  
-  .link-1:hover,
-  .link-2:hover {
-    transform: translateY(-3px);
-  }
-  
-  .logo {
-    padding-left: 3rem;
-    transition: 0.4s ease-in-out;
-  }
-  
-  .logo:hover {
-    cursor: pointer;
-    transform: translateY(-3px);
-  }
-  
-  .main-projects-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 95px;
-  }
-  
+  background-color: rgba(169, 175, 181, 0.2);
+  font-family: 'Hind', sans-serif;
+  height: 100%;
+}
+
+.projects-header-container {
+  align-items: center;
+  background-color: #07498e;
+  box-shadow: 0px 7px 4px -4px rgb(48, 48, 48);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+}
+
+.projects-link-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6rem;
+  width: 9vw;
+}
+
+.projects-link {
+  color: #f7f7f7;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.4s ease-in-out;
+}
+
+.link-1:hover,
+.link-2:hover {
+  transform: translateY(-3px);
+}
+
+.logo {
+  padding-left: 3rem;
+  transition: 0.4s ease-in-out;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.main-projects-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 95px;
+}
+
+.projects-main-header {
+  align-self: center;
+  color: #343434;
+  font-size: 2.75rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.project-heading-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-header {
+  font-size: 2.25rem;
+  font-weight: 400;
+  display: flex;
+  margin-top: 0;
+  padding-left: 3.75rem;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image {
+  align-self: center;
+  width: 91.4%;
+}
+
+.button-launch-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.launch-link {
+  align-items: center;
+  border: 1.4px #343434 solid;
+  color: #000;
+  display: flex;
+  font-size: 1.1rem;
+  height: 52.22px;
+  justify-content: center;
+  margin: 1rem 0 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  width: 117.22px;
+}
+
+.launch-link:hover {
+  background-color: #343434;
+  color: #eeeff0;
+  transform: translateY(-3px);
+}
+
+.details-button {
+  align-self: center;
+  background-color: #eeeff0;
+  border: 1.4px #343434 solid;
+  font-size: 1.1rem;
+  height: 55px;
+  margin: 1rem 1rem 0 0;
+  transition: 0.4s ease-in-out;
+  width: 120px;
+}
+
+.details-button:hover {
+  background-color: #343434;
+  color: #eeeff0;
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.active-button {
+  background-color: #343434;
+  color: #cedae8;
+}
+
+.github-logo {
+  height: 40px;
+  padding-left: 2rem;
+  padding-top: 1.25rem;
+  width: 40px;
+  transition: 0.4s ease-in-out;
+}
+
+.github-logo:hover {
+  transform: translateY(-3px);
+}
+
+.description-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  padding: 0 3.75rem;
+}
+
+.description-header {
+  align-self: flex-start;
+  margin-top: 1rem 0 0 0;
+}
+
+.project-description {
+  margin: 0;
+}
+
+.tech-stack-text {
+  align-self: flex-start;
+  margin: 0 0 1rem 0;
+}
+
+.loader {
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+}
+
+@media screen and (max-width: 900px) {
   .projects-main-header {
-    align-self: center;
-    color: #343434;
-    font-size: 2.75rem;
-    font-weight: 500;
-    margin: 0;
+    font-size: 2rem;
   }
-  
-  .project-heading-container {
-    display: flex;
-    justify-content: space-around;
-  }
-  
+
   .project-header {
-    font-size: 2.25rem;
-    font-weight: 400;
-    display: flex;
-    margin-top: 0;
-    padding-left: 3.75rem;
+    font-size: 1.75rem;
   }
-  
-  .project-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .project-image {
-    align-self: center;
-    width: 91.4%;
-  }
-  
-  .button-launch-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  }
-  
+
   .launch-link {
-    align-items: center;
-    border: 1.4px #343434 solid;
-    color: #000;
-    display: flex;
-    font-size: 1.1rem;
-    height: 52.22px;
-    justify-content: center;
-    margin: 1rem 0 0 1rem;
-    text-align: center;
-    text-decoration: none;
-    transition: 0.4s ease-in-out;
-    width: 117.22px;
+    font-size: 1rem;
+    height: 42.22px;
+    width: 107.22px;
   }
-  
-  .launch-link:hover {
-    background-color: #343434;
-    color: #EEEFF0;
-    transform: translateY(-3px);
-  }
-  
+
   .details-button {
-    align-self: center;
-    background-color: #EEEFF0;
-    border: 1.4px #343434 solid;
-    font-size: 1.1rem;
-    height: 55px;
-    margin: 1rem 1rem 0 0;
-    transition: 0.4s ease-in-out;
-    width: 120px;
+    font-size: 1rem;
+    height: 45px;
+    width: 110px;
   }
-  
-  .details-button:hover {
-    background-color: #343434;
-    color: #EEEFF0;
-    cursor: pointer;
-    transform: translateY(-3px);
+
+  .logo {
+    padding-left: 1rem;
   }
-  
-  .active-button {
-    background-color: #343434;
-    color: #cedae8;
+}
+
+@media screen and (max-width: 730px) {
+  .projects-link-container {
+    margin-right: 8rem;
   }
-  
-  .github-logo {
-    height: 40px;
+
+  .project-header {
     padding-left: 2rem;
-    padding-top: 1.25rem;
-    width: 40px;
-    transition: 0.4s ease-in-out;
   }
-  
-  .github-logo:hover {
-    transform: translateY(-3px);
+}
+
+@media screen and (max-width: 450px) {
+  .launch-link {
+    font-size: 0.9rem;
+    height: 37.22px;
+    width: 97.22px;
   }
-  
-  .description-container {
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0;
-    padding: 0 3.75rem;
+
+  .details-button {
+    font-size: 0.9rem;
+    height: 40px;
+    width: 100px;
   }
-  
-  .description-header {
-    align-self: flex-start;
-    margin-top: 1rem 0 0 0;
+
+  .github-logo {
+    height: 37px;
+    width: 37px;
   }
-  
-  .project-description {
-    margin: 0;
+
+  .project-header {
+    padding-left: 1.35rem;
   }
-  
-  .tech-stack-text {
-    align-self: flex-start;
-    margin: 0 0 1rem 0;
+
+  .logo {
+    height: 75px;
+    width: 75px;
+    padding-left: 0.1rem;
   }
-  
-  .loader {
-    height: 100vh;
-    width: 100vw;
-    z-index: 100;
+
+  .projects-link {
+    padding: 0.75rem;
   }
-  
+
+  .projects-link-container {
+    margin-right: 6.5rem;
+  }
+
+  .projects-main-header {
+    font-size: 1.9rem;
+  }
+}

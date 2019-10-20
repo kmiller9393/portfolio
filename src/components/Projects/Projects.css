@@ -90,12 +90,12 @@
 
 .launch-link:hover {
   background-color: #343434;
-  color: #EEEFF0;
+  color: #eeeff0;
   transform: translateY(-3px); }
 
 .details-button {
   align-self: center;
-  background-color: #EEEFF0;
+  background-color: #eeeff0;
   border: 1.4px #343434 solid;
   font-size: 1.1rem;
   height: 55px;
@@ -105,7 +105,7 @@
 
 .details-button:hover {
   background-color: #343434;
-  color: #EEEFF0;
+  color: #eeeff0;
   cursor: pointer;
   transform: translateY(-3px); }
 
@@ -145,3 +145,50 @@
   height: 100vh;
   width: 100vw;
   z-index: 100; }
+
+@media screen and (max-width: 900px) {
+  .projects-main-header {
+    font-size: 2rem; }
+  .project-header {
+    font-size: 1.75rem; }
+  .launch-link {
+    font-size: 1rem;
+    height: 42.22px;
+    width: 107.22px; }
+  .details-button {
+    font-size: 1rem;
+    height: 45px;
+    width: 110px; }
+  .logo {
+    padding-left: 1rem; } }
+
+@media screen and (max-width: 730px) {
+  .projects-link-container {
+    margin-right: 8rem; }
+  .project-header {
+    padding-left: 2rem; } }
+
+@media screen and (max-width: 450px) {
+  .launch-link {
+    font-size: 0.9rem;
+    height: 37.22px;
+    width: 97.22px; }
+  .details-button {
+    font-size: 0.9rem;
+    height: 40px;
+    width: 100px; }
+  .github-logo {
+    height: 37px;
+    width: 37px; }
+  .project-header {
+    padding-left: 1.35rem; }
+  .logo {
+    height: 75px;
+    width: 75px;
+    padding-left: 0.1rem; }
+  .projects-link {
+    padding: 0.75rem; }
+  .projects-link-container {
+    margin-right: 6.5rem; }
+  .projects-main-header {
+    font-size: 1.9rem; } }
