@@ -98,3 +98,21 @@
   color: #343434;
   margin: 0;
   padding-top: 0.75rem; }
+
+@media screen and (max-width: 900px) {
+  .about-header {
+    font-size: 2.5rem; }
+  .logo {
+    padding-left: 1rem; } }
+
+@media screen and (max-width: 730px) {
+  .about-header {
+    padding-left: 2.25rem; } }
+
+@media screen and (max-width: 450px) {
+  .about-header {
+    padding-left: 1.5rem; }
+  .logo {
+    height: 75px;
+    width: 75px;
+    padding-left: 0.1rem; } }
