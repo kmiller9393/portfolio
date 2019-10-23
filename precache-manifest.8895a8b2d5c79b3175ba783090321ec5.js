@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/linkedin-logo.b6f1a2d9.svg"
   },
   {
-    "revision": "e0e98128a90e41df8ecd",
-    "url": "/static/css/main.5c82e1a6.chunk.css"
+    "revision": "51d8f042ce538b86f181",
+    "url": "/static/css/main.249ef606.chunk.css"
   },
   {
     "revision": "90cb54efd0f17ff22df5ba2c26f7c81f",
     "url": "/static/media/kt-blog-landing.90cb54ef.svg"
   },
   {
-    "revision": "074aa1a7c51d11090e91",
-    "url": "/static/js/1.074aa1a7.chunk.js"
+    "revision": "07cee6e619d2b2973a32",
+    "url": "/static/js/1.07cee6e6.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/prof-pic.00300dda.png"
   },
   {
-    "revision": "e0e98128a90e41df8ecd",
-    "url": "/static/js/main.e0e98128.chunk.js"
+    "revision": "51d8f042ce538b86f181",
+    "url": "/static/js/main.51d8f042.chunk.js"
   },
   {
     "revision": "f5213e05d69ae974479a9ec4053ce888",
@@ -56,11 +56,11 @@ self.__precacheManifest = [
     "url": "/static/media/swapibox-home.dce2742c.svg"
   },
   {
-    "revision": "074aa1a7c51d11090e91",
+    "revision": "07cee6e619d2b2973a32",
     "url": "/static/css/1.629223ba.chunk.css"
   },
   {
-    "revision": "3c4bc41bc21dfb784e94306c1975ddbd",
+    "revision": "2fb8a2549fbc23c2cc896f93f1c6b871",
     "url": "/index.html"
   }
 ];
