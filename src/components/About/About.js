@@ -51,6 +51,9 @@ class About extends Component {
             </NavLink>
           </div>
         </header>
+        <div className="about-me-container">
+          <h1 className="about-header">About Me</h1>
+        </div>
         <main className="main-about-container">
           <img
             className="profile-pic"
@@ -59,7 +62,6 @@ class About extends Component {
             onLoad={this.handleLoad}
           />
           <div>
-            <h1 className="about-header">About Me</h1>
             <p className="about-content">
               I am a software developer with a strong desire for overcoming
               challenging obstacles, much like the ones that often come up
